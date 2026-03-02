@@ -1,6 +1,16 @@
-# Digital Audio Signal Filtering & Noise Reduction
+# 🚧 Digital Audio Signal Filtering & Noise Reduction (WIP)
+
+> **Note:** This project is currently a **Work in Progress** and was initiated as part of the **Signal and Systems** course. We are actively looking for contributors to help expand its capabilities!
 
 This project is a Python-based Digital Signal Processing (DSP) tool designed to filter and reduce noise in audio signals, specifically targeting `.wav` files. It applies advanced mathematical filters to remove unwanted frequencies and exports a clean, high-quality audio file.
+
+---
+
+## 📚 Course Context
+Developed within the scope of **Signal and Systems**, this project explores the practical application of:
+- **Frequency Analysis:** Understanding noise characteristics in the frequency domain.
+- **Filter Design:** Implementing Butterworth, Chebyshev, or other digital filters.
+- **Signal Transformation:** Utilizing Fourier Transforms for audio processing.
 
 ---
 
@@ -20,6 +30,22 @@ This project utilizes the following industry-standard libraries:
 *   **Matplotlib:** For visualizing audio data and waveforms.
 *   **Librosa:** For advanced audio analysis and feature extraction.
 *   **SoundFile:** For reading and writing `.wav` files.
+
+---
+
+## 🤝 Contributing
+Since this project is in its early stages, we highly encourage contributions! Whether you're a fellow student or a DSP enthusiast, feel free to:
+1.  **Fork** the repository.
+2.  **Create a feature branch** (`git checkout -b feature/AmazingFeature`).
+3.  **Commit your changes** (`git commit -m 'Add some AmazingFeature'`).
+4.  **Push to the branch** (`git push origin feature/AmazingFeature`).
+5.  **Open a Pull Request**.
+
+Items on our roadmap:
+- [ ] Support for more audio formats (MP3, FLAC).
+- [ ] Real-time noise filtering.
+- [ ] GUI for easier interaction.
+- [ ] More robust filter types (e.g., adaptive filters).
 
 ---
 
